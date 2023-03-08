@@ -40,6 +40,7 @@ How to configure log collection on Windows:
 5. Create new configuration. Specify name and choose Log Collector "winlogbeat". You might want to be more specific with events that you want to collect.
 In this case you can use the following articles:
 https://go2docs.graylog.org/5-0/getting_in_log_data/ingest_windows_eventlog.html
+
 https://hochwald.net/ship-windows-event-logs-with-winlogbeat/
 
 6. In Sidecars -> Administration assign this configuration on the machine.
